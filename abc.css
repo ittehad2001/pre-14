@@ -1,0 +1,53 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: rgb(194, 191, 42);
+}
+a:hover{
+    
+    background-color: rgb(28, 173, 26);
+    color: aqua;
+}
+a:active{
+    background-color: rgb(19, 13, 81);
+}
+.iiuc{
+    
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px 0 10px 0;
+    background: rgb(32, 67, 102);
+   
+
+}
+a{text-decoration: none;}
+.lis{
+    list-style-type: lower-greek;
+    list-style-position: outside;
+    background: rgb(23, 188, 100);
+    list-style-image: url(paper-plane-solid\ \(1\).svg);
+}
+li{background-color: rgb(19, 111, 142);
+padding: 5px;
+margin: 3px;
+}
+table{width: 50%;  }
+table,th,td{
+    border: 2px solid blue;
+ border-collapse: collapse;
+}
+
+th{height: 50px;}
+td{height: 50px;
+text-align: center;
+vertical-align: middle; 
+}
+tr:nth-child(even)
+{
+    background: rgb(0, 255, 98);
+}
+tr:hover{
+    background: gray;
+}
